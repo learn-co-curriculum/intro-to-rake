@@ -198,7 +198,7 @@ If only there was some way to interact with our class and database without havin
 
 Well, we can build a Rake task that will load up a Pry console for us. 
 
-### `rake console`
+### `rake db:console`
 
 We'll define a task that starts up the Pry console. We'll make this task dependent on our `environment` task so that the `Student` class and the database connection load first. 
 
