@@ -27,6 +27,7 @@ In fact, the C community was the first to implement the pattern of writing all t
 Rake was later developed by [Jim Weirich](https://en.wikipedia.org/wiki/Jim_Weirich) as the task management tool for Ruby. 
 
 ## How to Define and Use Rake Tasks
+**Note: Clone the lab and run the rake commands in the root of the directory
 
 Building a Rake task is easy, since Rake is already available to us as a part of Ruby. All we need to do is create a file in the top level of our directory called `Rakefile`. Here we define our task:
 
