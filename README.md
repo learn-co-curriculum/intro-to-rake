@@ -129,11 +129,11 @@ We'll namespace this task under the `db` heading. This namespace will contain a 
 We'll call this task `migrate`, because it is a convention to say we are "migrating" our database by applying SQL statements that alter that database.
 
 ```ruby
-desc 'migrate changes to your database' 
 namespace :db do 
-  task :migrate => :environment do 
-    Student.create_table
-  end
+	desc 'migrate changes to your database' 
+		task :migrate => :environment do 
+			Student.create_table
+		end
 end
 ```
 
