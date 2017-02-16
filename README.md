@@ -129,8 +129,9 @@ We'll namespace this task under the `db` heading. This namespace will contain a 
 We'll call this task `migrate`, because it is a convention to say we are "migrating" our database by applying SQL statements that alter that database.
 
 ```ruby
-desc 'migrate changes to your database' 
 namespace :db do 
+desc 'migrate changes to your database' 
+
   task :migrate => :environment do 
     Student.create_table
   end
@@ -181,8 +182,9 @@ Student.create(name: "Sarah", grade: "10th")
 Then, we define a rake task that executes the code in this file. This task will also be namespaced under `db`:
 
 ```ruby
-desc 'seed the database with some dummy data'
 namespace :db do
+desc 'seed the database with some dummy data'
+
 
   ...
    
