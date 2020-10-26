@@ -25,7 +25,7 @@ arbitrary decisions about what segment of our Ruby program would be responsible
 for executing these tasks.
 
 Writing scripts in BASH is tough, and BASH just isn't as powerful as Ruby. On
-the other hand, for each developer to make his or her own decisions about where
+the other hand, for each developer to make their own decisions about where
 to define and execute certain common tasks related to databases or file
 maintenance is confusing.
 
